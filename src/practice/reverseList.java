@@ -25,10 +25,9 @@ public class reverseList {
 			reveList.add(list.get(i));
 		}
 		System.out.println("reverse list : " + reveList);
-		
 		Collections.sort(reveList);
-		System.out.println("sorted list : " + reveList);
-		
+		System.out.println("sorted assending : " + reveList);	
+		Collections.reverse(reveList);
+		System.out.println("sorted decending : " + reveList);			
 	}
-
 }

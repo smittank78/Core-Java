@@ -2,16 +2,13 @@ package practice;
 
 import java.util.Scanner;
 
-import javax.crypto.spec.ChaCha20ParameterSpec;
-
 public class recursiveFibonacci 
 {
 	static int a0=0,a1=1,a2;
-	static {
-		System.out.print(a0 + " " + a1);		
-	}
 	static void fibonacci(int num)
 	{
+		if(a0 == 0)
+			System.out.print(a0 + " " + a1 + " ");		
 		a2 = a0 + a1;
 		a0 = a1;
 		a1 = a2;

@@ -1,6 +1,5 @@
 package practice;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class pirmeNumber 
@@ -10,9 +9,9 @@ public class pirmeNumber
 		boolean flag = true;
 /*		if(a == 0 || a == 1)
 			flag = false;
-*/		if(a == 2)
+*/		if(a == 2 || a == 3)
 			flag = true;
-		if(a > 2)
+		if(a > 3)
 		{
 			for(int i=2;i<= a/2;i++) 
 			{
@@ -29,6 +28,5 @@ public class pirmeNumber
 		int a = scanner.nextInt();
 		
 		System.out.println("prime number : " + primeNumber(a));
-		
 	}
 }

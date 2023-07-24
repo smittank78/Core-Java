@@ -58,14 +58,13 @@ public class Pattern
 		{
 			for(k=0;k<5-i;k++)
 			{
-				    System.out.print("  ");
+			    System.out.print("  ");
 			}
 			for(j=i;j> 0;j--)
 			{
 				System.out.print( "*" + " ");
 			}	
 			System.out.println();
-	
 		}
 		System.out.println();
 		System.out.println("------------------------------------");

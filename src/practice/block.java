@@ -1,7 +1,11 @@
 package practice;
+
 public class block 
 {
 	private static int a;
+	public block() {
+		System.out.println("constructor called...");
+	}
 	static {
 		System.out.println("static block ....");
 	}
@@ -23,5 +27,6 @@ public class block
 		System.out.println("main method executed");
 		block a = new block();
 		System.out.println("main method a : " + getA());
+		
 	}
 }

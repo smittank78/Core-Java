@@ -1,6 +1,6 @@
 package thread;
 
-public class byRunnable 
+public class byRunnable
 {
 	public static void main(String[] args) 
 	{
@@ -12,8 +12,7 @@ public class byRunnable
 		
 		t1.start();
 		t2.start();
-		
-		for(int i=0;i<5;i++)
+		for(int i=0;i<50;i++)
 		{
 			System.out.println("thread-main");
 		}
@@ -26,7 +25,7 @@ class thread1 implements Runnable
 	@Override
 	public void run() 
 	{
-		for(int i=0;i<5;i++)
+		for(int i=0;i<50;i++)
 		{
 			System.out.println("runnable-1");
 		}
@@ -38,7 +37,7 @@ class thread2 implements Runnable
 	@Override
 	public void run() 
 	{
-		for(int i=0;i<5;i++)
+		for(int i=0;i<50;i++)
 		{
 			System.out.println("runnable-2");
 		}

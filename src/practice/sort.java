@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.Arrays;
+
 public class sort {
 
 	static int[] sort(int[] n)
@@ -17,22 +19,17 @@ public class sort {
 					a[j] = temp;
 				}
 			}
-			System.out.print(a[i] + " , ");
+			System.out.print(a[i] + " ");
 		}
 		return a;		
 	}
-	
+
 	public static void main(String[] args) {
 		int a[] = {1,5,9,3,6,2,4,7,8,15,0};
 		
-		System.out.println(a.toString());
 		
-		for(int i : a)
-		{
-			System.out.print(i + " ");
-		}
 		System.out.println();
 		sort(a);
+		Arrays.sort(a);
 	}
-
 }

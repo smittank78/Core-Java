@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class fibonacci 
 {
 	public static int fibonacciRecursive(int n) {
-		if (n <= 1)
+		if (n < 1)
+		{
 			return n;
+		}
 		return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
 	}
 	static void fibonaci(int num)

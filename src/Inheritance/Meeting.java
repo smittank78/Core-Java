@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Meeting extends Squad
+class Meeting extends Squad
 {
 	public Meeting() 
 	{

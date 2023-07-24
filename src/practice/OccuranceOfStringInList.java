@@ -35,10 +35,9 @@ public class OccuranceOfStringInList {
 			}
 		});
 		System.out.println(map);
-		
+
 		for (String s : map.keySet()) {
 			System.out.println(s + " : " + map.get(s));
 		}
-	}
-	
+	}	
 }

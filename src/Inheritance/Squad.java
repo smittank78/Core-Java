@@ -8,10 +8,10 @@ public class Squad extends Team
 	}
 	void Coach()
 	{
-		System.out.println("Coach : watson and ponting");
+		System.out.println("Coach : Ram-Maher-singh");
 	}
 	void captain()
 	{
-		System.out.println("Captain : Rishabh Pant");
+		System.out.println("Captain : Dong-Joen-Lee");
 	}
 }

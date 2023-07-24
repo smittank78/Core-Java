@@ -5,6 +5,8 @@ public class ArmyStrong
 	public static void main(String[] args) 
 	{
 		int i = 153;
+		System.out.println("check number : " + i);
+		System.out.println("start process..");
 		int a = i;
 		int m,sum =0,divide;
 		boolean flag = true;

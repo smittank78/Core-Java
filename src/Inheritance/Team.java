@@ -8,6 +8,6 @@ public class Team
 	}
 	void team()
 	{
-		System.out.println("Team : Delhi Capitals");
+		System.out.println("Team : Gujarat Giants");
 	}
 }

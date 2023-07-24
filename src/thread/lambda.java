@@ -30,8 +30,6 @@ public class lambda
 			1 - least Priority
 			2 - highest Priority
 		*/
-		//t1.setPriority(1);
-		//t2.setPriority(10);
 		
 		t1.setPriority(Thread.MIN_PRIORITY);
 		t2.setPriority(Thread.MAX_PRIORITY);
@@ -42,9 +40,7 @@ public class lambda
 		
 		t1.start();
 		t2.start();
-		
-		
-		
+				
 		for(int i=0;i<5;i++)
 		{
 			System.out.println("thread-main");

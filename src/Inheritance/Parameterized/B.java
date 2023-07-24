@@ -1,7 +1,6 @@
 package Inheritance.Parameterized;
 
-public class B extends A {
-	
+public class B extends A implements C{
 	int a;
 	public B(int a) {
 		super(a);
@@ -9,6 +8,7 @@ public class B extends A {
 	}
 	void b()
 	{
+		System.out.println(C.super.defaultMethod("class-b called default method of interface-c"));
 		System.out.println("b" + super.a);
 	}
 	public static void main(String[] args) {
